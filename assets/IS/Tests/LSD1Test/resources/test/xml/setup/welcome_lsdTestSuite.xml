@@ -3,7 +3,7 @@
     <webMethodsTestCase name="Success">
         <service folder="LSD1.services" name="welcome">
             <input>
-                <file/>
+                <file filename="resources/test/xml/data/Success"/>
             </input>
             <expected>
                 <file/>
