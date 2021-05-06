@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="welcome-TestSuite">
+    <webMethodsTestCase name="success">
+        <service folder="LSD1.services" name="welcome_lsd">
+            <input>
+                <file filename="resources/test/data/success_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/success_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
