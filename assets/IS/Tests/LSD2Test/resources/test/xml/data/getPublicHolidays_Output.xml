@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <value name="url">https://date.nager.at/Api/v2/NextPublicHolidays/US</value>
+    <array name="publicHolidays" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-05-31</value>
+        <value name="localName">Memorial Day</value>
+        <value name="name">Memorial Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-07-05</value>
+        <value name="localName">Independence Day</value>
+        <value name="name">Independence Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-09-06</value>
+        <value name="localName">Labor Day</value>
+        <value name="name">Labour Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-10-11</value>
+        <value name="localName">Columbus Day</value>
+        <value name="name">Columbus Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">false</jboolean>
+        <array name="counties" type="value" depth="1">
+          <value>US-AL</value>
+          <value>US-AZ</value>
+          <value>US-CO</value>
+          <value>US-CT</value>
+          <value>US-DC</value>
+          <value>US-GA</value>
+          <value>US-ID</value>
+          <value>US-IL</value>
+          <value>US-IN</value>
+          <value>US-IA</value>
+          <value>US-KS</value>
+          <value>US-KY</value>
+          <value>US-LA</value>
+          <value>US-ME</value>
+          <value>US-MD</value>
+          <value>US-MA</value>
+          <value>US-MS</value>
+          <value>US-MO</value>
+          <value>US-MT</value>
+          <value>US-NE</value>
+          <value>US-NH</value>
+          <value>US-NJ</value>
+          <value>US-NM</value>
+          <value>US-NY</value>
+          <value>US-NC</value>
+          <value>US-OH</value>
+          <value>US-OK</value>
+          <value>US-PA</value>
+          <value>US-RI</value>
+          <value>US-SC</value>
+          <value>US-TN</value>
+          <value>US-UT</value>
+          <value>US-VA</value>
+          <value>US-WV</value>
+        </array>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-11-11</value>
+        <value name="localName">Veterans Day</value>
+        <value name="name">Veterans Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-11-25</value>
+        <value name="localName">Thanksgiving Day</value>
+        <value name="name">Thanksgiving Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <number name="launchYear" type="java.lang.Long">1863</number>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-12-24</value>
+        <value name="localName">Christmas Day</value>
+        <value name="name">Christmas Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2021-12-31</value>
+        <value name="localName">New Year's Day</value>
+        <value name="name">New Year's Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2022-01-17</value>
+        <value name="localName">Martin Luther King, Jr. Day</value>
+        <value name="name">Martin Luther King, Jr. Day</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="date">2022-02-21</value>
+        <value name="localName">Presidents Day</value>
+        <value name="name">Washington's Birthday</value>
+        <value name="countryCode">US</value>
+        <jboolean name="fixed">false</jboolean>
+        <jboolean name="global">true</jboolean>
+        <null name="counties"/>
+        <null name="launchYear"/>
+        <value name="type">Public</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
